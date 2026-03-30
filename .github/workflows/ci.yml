@@ -27,7 +27,7 @@ format:
         with:
           node-version: 20
       - run: npm ci
-      - run: npm rn format -- --check
+      - run: npm rn format:check
 
 test:
     name: Test
