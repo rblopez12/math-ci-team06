@@ -38,4 +38,4 @@ test:
       with:
         node-version: 20
     - run: npm ci
-    - run: npm rn test
+    - run: npm rn test script
